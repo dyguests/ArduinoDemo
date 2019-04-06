@@ -15,7 +15,7 @@ set(${PROJECT_NAME}_HDRS User_Setup.h)
 # set(${PROJECT_NAME}_LIBS)
 
 ### Main sketch file
-set(${PROJECT_NAME}_SKETCH arduino_demo.ino)
+set(${PROJECT_NAME}_SKETCH sketches/sketch_serial.ino)
 
 ### Add project directories into the build
 # add_subdirectory()

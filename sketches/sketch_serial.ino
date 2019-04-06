@@ -7,9 +7,9 @@ void setup() {
 }
 
 void loop() {
-// 如果缓冲区中有数据，则读取并输出
+    // 如果缓冲区中有数据，则读取并输出
     if (Serial.available() > 0) {
-        char ch = Serial.read();
+        char ch = static_cast<char>(Serial.read());
         Serial.print(ch);
     }
 }
